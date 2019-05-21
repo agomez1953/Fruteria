@@ -1,4 +1,7 @@
 class Fruta:
+    sabor : str
+    pelada : str
+    cantidad : str
 
     def pelar(self):
         return True
