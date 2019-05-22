@@ -19,6 +19,7 @@ class Fruta:
             cantidad -= 1
             return cantidad
 
-
     def licuar(self, cantidad: int):
-        return 2.0
+        if self.pelda and cantidad > 0:
+            cantidad +=1
+            return cantidad
