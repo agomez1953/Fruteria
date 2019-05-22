@@ -3,3 +3,4 @@ class Frutiadero:
     inventario : str
 
     def preparar(self,tipo : str, ingredientes):
+        return 0
